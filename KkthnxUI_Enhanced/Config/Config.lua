@@ -19,23 +19,23 @@ local SetCVars = {
 	synchronizeConfig = "1",
 	synchronizeMacros = "1",
 	synchronizeSettings = "1",
-  ActionButtonUseKeyDown = "1",
-  autoQuestWatch = "1",
-  cameraSmoothStyle = "1",
-  cameraYawSmoothSpeed = "90",
-  lossOfControl = "1",
-  lossOfControlDisarm = "2",
-  profanityFilter = "0",
-  screenEdgeFlash = "0",
-  screenshotQuality = "10",
-  showQuestTrackingTooltips = "0",
-  synchronizeBindings = "1",
-  TargetNearestUseOld = "1",
-  threatPlaySounds = "0",
-  trackQuestSorting = "proximity",
+	ActionButtonUseKeyDown = "1",
+	autoQuestWatch = "1",
+	cameraSmoothStyle = "1",
+	cameraYawSmoothSpeed = "90",
+	lossOfControl = "1",
+	lossOfControlDisarm = "2",
+	profanityFilter = "0",
+	screenEdgeFlash = "0",
+	screenshotQuality = "10",
+	showQuestTrackingTooltips = "0",
+	synchronizeBindings = "1",
+	TargetNearestUseOld = "1",
+	threatPlaySounds = "0",
+	trackQuestSorting = "proximity",
 }
 
-local SetBVars  = {
+local SetBVars = {
 	-- Suppress annoying help popups
 	closedInfoFrames = {
 		[LE_FRAME_TUTORIAL_TALENT] = true,
@@ -78,7 +78,7 @@ KkthnxUITweaks:SetScript("OnEvent", function()
 	SetAutoDeclineGuildInvites(true)
 	ShowAccountAchievements(true) -- show ONLY account achievements
 
-  for cvar, value in pairs(SetCVars) do
+	for cvar, value in pairs(SetCVars) do
 		local current = tostring(GetCVar(cvar))
 		if current ~= value then
 			--print("SetCVar", cvar, value)
