@@ -1,0 +1,8 @@
+## Interface: 70100
+## Title: |cff3c9bedKkthnxUI Enhanced|r
+## Notes: Tweaks and more to enhance |cff3c9bedKkthnxUI|r
+## Version: 1.01
+## Author: Kkthnx
+## RequiredDeps: KkthnxUI
+
+Config\Config.lua
