@@ -158,7 +158,7 @@ C.Tooltip.HyperLink = true
 C.Tooltip.ItemCount = true
 C.Tooltip.ItemIcon = true
 
-Data.SplitBars = ture
+Data.SplitBars = true
 Data.AutoInvite = true
 Data.BottomBars = 2
 Data.hideTutorial = true
